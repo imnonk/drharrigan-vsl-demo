@@ -57,14 +57,15 @@
     }
 
     .logo-icon {
-      width: 52px;
       height: 52px;
-      background: var(--gold);
-      border-radius: 50%;
       display: flex;
       align-items: center;
-      justify-content: center;
-      font-size: 1.6rem;
+    }
+
+    .logo-icon img {
+      height: 52px;
+      width: auto;
+      display: block;
     }
 
     .logo-text {
@@ -585,6 +586,15 @@
       position: relative;
     }
 
+    .testi-stars {
+      margin-bottom: 14px;
+    }
+
+    .testi-stars img {
+      height: 18px;
+      width: auto;
+    }
+
     .testi-card::before {
       content: '"';
       position: absolute;
@@ -713,7 +723,9 @@
   <!-- HEADER -->
   <header class="site-header">
     <div class="logo-wrap">
-      <div class="logo-icon" aria-hidden="true">&#x1F33F;</div>
+      <div class="logo-icon">
+        <img src="assets/logo-synergy-wellness.webp" alt="Synergy Wellness" />
+      </div>
       <div class="logo-text">
         <div class="brand-name">Synergy Wellness</div>
         <div class="brand-sub">Dr. Tim Harrigan, D.C., B.Sc.</div>
@@ -887,11 +899,7 @@
   <section class="bio-section">
     <div class="bio-inner">
       <div class="bio-photo">
-        <!-- Replace with actual headshot: <img src="..." alt="Dr. Tim Harrigan, D.C., B.Sc., chiropractic physician and functional medicine specialist" /> -->
-        <div class="bio-photo-placeholder">
-          <span class="icon" aria-hidden="true">&#x1F9D1;&#x200D;&#x2695;&#xFE0F;</span>
-          <span>[PLACEHOLDER: Dr. Tim Harrigan headshot]</span>
-        </div>
+        <img src="assets/dr-tim-harrigan-headshot.webp" alt="Dr. Tim Harrigan, D.C., B.Sc., chiropractic physician and founder of Synergy Wellness" />
       </div>
       <div class="bio-content">
         <span class="section-label">Meet your guide</span>
@@ -938,6 +946,7 @@
       <p class="section-lead">Results reflect individual experiences. Outcomes vary based on each person's unique blueprint and program compliance.</p>
       <div class="testi-grid">
         <div class="testi-card">
+          <div class="testi-stars"><img src="assets/five-stars.webp" alt="5 stars" /></div>
           <p class="testi-text">
             Keith was an entrepreneur who had seen specialist after specialist. He found Dr. Harrigan
             at a trade show and asked for help. Ninety days later he had lost nearly 30 pounds
@@ -947,6 +956,7 @@
           <div class="testi-desc">Entrepreneur</div>
         </div>
         <div class="testi-card">
+          <div class="testi-stars"><img src="assets/five-stars.webp" alt="5 stars" /></div>
           <p class="testi-text">
             "My body is in better condition at 75 than it was in my 40s." Tish started working
             with Dr. Harrigan and experienced a transformation she hadn't thought possible at her age.
@@ -955,6 +965,7 @@
           <div class="testi-desc">Patient, age 75</div>
         </div>
         <div class="testi-card">
+          <div class="testi-stars"><img src="assets/five-stars.webp" alt="5 stars" /></div>
           <p class="testi-text">
             Sarah's son was dealing with serious health challenges. Even from across the country,
             the work they did together made a measurable difference. "What a difference he has made."
