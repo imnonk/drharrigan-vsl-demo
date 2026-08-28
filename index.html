@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Watch Free: The Signature Blueprint Protocol | Dr. Tim Harrigan</title>
+  <meta name="description" content="Discover why conventional labs miss the real cause of your fatigue, brain fog, and hormonal struggles. Watch Dr. Tim Harrigan's Signature Blueprint Protocol video and book a free consultation." />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy:        #003B5C;
+      --navy-dark:   #002843;
+      --gold:        #C9A84C;
+      --gold-light:  #E0C070;
+      --white:       #FFFFFF;
+      --off-white:   #F8FAFC;
+      --gray:        #5A6878;
+      --light:       #E8EDF2;
+      --text:        #1A2736;
+    }
+
+    body {
+      font-family: 'Georgia', serif;
+      color: var(--text);
+      background: var(--white);
+      line-height: 1.7;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; }
+
+    /* ── ANNOUNCEMENT BAR ── */
+    .announce-bar {
+      background: var(--gold);
+      color: var(--navy-dark);
+      text-align: center;
+      padding: 10px 20px;
+      font-family: 'Arial', sans-serif;
+      font-size: 0.88rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+    }
+
+    /* ── HEADER ── */
+    .site-header {
+      background: var(--navy-dark);
+      padding: 18px 24px;
+      text-align: center;
+    }
+
+    .logo-wrap {
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .logo-icon {
+      width: 52px;
+      height: 52px;
+      background: var(--gold);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6rem;
+    }
+
+    .logo-text {
+      text-align: left;
+    }
+
+    .logo-text .brand-name {
+      font-family: 'Arial', sans-serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--white);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .logo-text .brand-sub {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.72rem;
+      color: rgba(255,255,255,0.55);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      background: var(--navy);
+      color: var(--white);
+      padding: 64px 24px 56px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% 0%, rgba(201,168,76,0.18) 0%, transparent 65%);
+      pointer-events: none;
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      max-width: 820px;
+      margin: 0 auto;
+    }
+
+    .hero-eyebrow {
+      display: inline-block;
+      background: rgba(201,168,76,0.15);
+      border: 1px solid rgba(201,168,76,0.5);
+      color: var(--gold-light);
+      font-family: 'Arial', sans-serif;
+      font-size: 0.76rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      padding: 5px 18px;
+      border-radius: 100px;
+      margin-bottom: 26px;
+    }
+
+    .hero h1 {
+      font-size: clamp(1.9rem, 5vw, 3rem);
+      line-height: 1.18;
+      font-weight: 700;
+      margin-bottom: 20px;
+      color: var(--white);
+    }
+
+    .hero h1 span { color: var(--gold-light); }
+
+    .hero-sub {
+      font-family: 'Arial', sans-serif;
+      font-size: 1.05rem;
+      color: rgba(255,255,255,0.72);
+      max-width: 620px;
+      margin: 0 auto 40px;
+      line-height: 1.65;
+    }
+
+    /* ── VIDEO WRAPPER ── */
+    .video-section {
+      background: var(--navy-dark);
+      padding: 0 24px 48px;
+    }
+
+    .video-outer {
+      max-width: 820px;
+      margin: 0 auto;
+    }
+
+    .video-embed {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%;
+      background: #000;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 12px 48px rgba(0,0,0,0.5);
+    }
+
+    .video-embed iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .video-placeholder {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #001f36 0%, #003B5C 60%, #002843 100%);
+      color: var(--white);
+      cursor: pointer;
+    }
+
+    .play-btn {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: var(--gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      transition: transform 0.2s, background 0.2s;
+      box-shadow: 0 0 0 12px rgba(201,168,76,0.2);
+    }
+
+    .play-btn:hover { transform: scale(1.08); background: var(--gold-light); }
+
+    .play-btn svg { width: 32px; height: 32px; fill: var(--navy-dark); margin-left: 4px; }
+
+    .video-placeholder p {
+      font-family: 'Arial', sans-serif;
+      font-size: 1rem;
+      color: rgba(255,255,255,0.65);
+      letter-spacing: 0.04em;
+    }
+
+    /* ── CTA AREA ── */
+    .cta-section {
+      background: var(--navy-dark);
+      padding: 0 24px 64px;
+      text-align: center;
+    }
+
+    .cta-inner {
+      max-width: 560px;
+      margin: 0 auto;
+    }
+
+    .cta-label {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 12px;
+      display: block;
+    }
+
+    .cta-heading {
+      font-size: clamp(1.4rem, 3.5vw, 2rem);
+      color: var(--white);
+      margin-bottom: 10px;
+      line-height: 1.25;
+    }
+
+    .cta-sub {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.6);
+      margin-bottom: 32px;
+    }
+
+    .btn-primary {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--navy-dark);
+      font-family: 'Arial', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      padding: 18px 44px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.15s;
+      text-decoration: none;
+      letter-spacing: 0.01em;
+    }
+
+    .btn-primary:hover {
+      background: var(--gold-light);
+      transform: translateY(-2px);
+    }
+
+    .btn-note {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.78rem;
+      color: rgba(255,255,255,0.4);
+      margin-top: 12px;
+    }
+
+    /* ── PAIN SECTION ── */
+    .pain-section {
+      background: var(--off-white);
+      padding: 72px 24px;
+      text-align: center;
+    }
+
+    .section-inner { max-width: 900px; margin: 0 auto; }
+
+    .section-label {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.76rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 14px;
+      display: block;
+    }
+
+    .pain-section h2 {
+      font-size: clamp(1.55rem, 3.5vw, 2.3rem);
+      color: var(--navy);
+      margin-bottom: 18px;
+      line-height: 1.25;
+    }
+
+    .pain-section .lead {
+      font-family: 'Arial', sans-serif;
+      font-size: 1rem;
+      color: var(--gray);
+      max-width: 580px;
+      margin: 0 auto 48px;
+    }
+
+    .pain-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      text-align: left;
+    }
+
+    .pain-card {
+      background: var(--white);
+      border-radius: 12px;
+      padding: 24px 24px 24px 20px;
+      border-left: 4px solid var(--navy);
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    }
+
+    .pain-card p {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.95rem;
+      color: var(--text);
+      line-height: 1.55;
+    }
+
+    /* ── WHAT YOU'LL LEARN ── */
+    .learn-section {
+      background: var(--white);
+      padding: 72px 24px;
+    }
+
+    .learn-section h2 {
+      font-size: clamp(1.55rem, 3.5vw, 2.3rem);
+      color: var(--navy);
+      margin-bottom: 40px;
+      line-height: 1.25;
+      text-align: center;
+    }
+
+    .learn-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+    }
+
+    .learn-card {
+      background: var(--off-white);
+      border-radius: 14px;
+      padding: 28px 26px;
+      border-top: 4px solid var(--gold);
+    }
+
+    .learn-card-num {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 10px;
+    }
+
+    .learn-card h3 {
+      font-size: 1.05rem;
+      color: var(--navy);
+      margin-bottom: 10px;
+      line-height: 1.3;
+    }
+
+    .learn-card p {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.9rem;
+      color: var(--gray);
+      line-height: 1.55;
+    }
+
+    /* ── ROOT CAUSE SECTION ── */
+    .root-section {
+      background: var(--navy);
+      color: var(--white);
+      padding: 72px 24px;
+      text-align: center;
+    }
+
+    .root-section h2 {
+      font-size: clamp(1.55rem, 3.5vw, 2.3rem);
+      margin-bottom: 16px;
+      line-height: 1.25;
+    }
+
+    .root-section h2 span { color: var(--gold-light); }
+
+    .root-section .lead {
+      font-family: 'Arial', sans-serif;
+      font-size: 1rem;
+      color: rgba(255,255,255,0.65);
+      max-width: 580px;
+      margin: 0 auto 48px;
+    }
+
+    .root-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 24px;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    .root-card {
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(201,168,76,0.3);
+      border-radius: 14px;
+      padding: 32px 24px;
+      text-align: left;
+    }
+
+    .root-card-number {
+      font-family: 'Arial', sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--gold);
+      margin-bottom: 10px;
+      line-height: 1;
+    }
+
+    .root-card h3 {
+      font-size: 1.15rem;
+      color: var(--white);
+      margin-bottom: 10px;
+    }
+
+    .root-card p {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.65);
+      line-height: 1.55;
+    }
+
+    /* ── BIO ── */
+    .bio-section {
+      padding: 80px 24px;
+      background: var(--white);
+    }
+
+    .bio-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      gap: 56px;
+      align-items: start;
+    }
+
+    .bio-photo {
+      border-radius: 16px;
+      overflow: hidden;
+      background: var(--light);
+      aspect-ratio: 3/4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .bio-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .bio-photo-placeholder {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      color: var(--gray);
+      font-family: 'Arial', sans-serif;
+      font-size: 0.8rem;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .bio-photo-placeholder .icon { font-size: 3.5rem; }
+
+    .bio-content .section-label { text-align: left; }
+
+    .bio-content h2 {
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      color: var(--navy);
+      margin-bottom: 8px;
+      line-height: 1.25;
+    }
+
+    .bio-content .bio-title {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.9rem;
+      color: var(--gold);
+      font-weight: 700;
+      margin-bottom: 20px;
+      letter-spacing: 0.04em;
+    }
+
+    .bio-content p {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.97rem;
+      color: var(--gray);
+      line-height: 1.65;
+      margin-bottom: 14px;
+    }
+
+    .bio-stat-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      margin-top: 24px;
+    }
+
+    .bio-stat {
+      border-left: 3px solid var(--gold);
+      padding-left: 14px;
+    }
+
+    .bio-stat strong {
+      display: block;
+      font-size: 1.4rem;
+      color: var(--navy);
+      font-family: 'Arial', sans-serif;
+      font-weight: 700;
+    }
+
+    .bio-stat span {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.8rem;
+      color: var(--gray);
+    }
+
+    /* ── TESTIMONIALS ── */
+    .testimonials-section {
+      background: var(--off-white);
+      padding: 72px 24px;
+    }
+
+    .testimonials-section h2 {
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      color: var(--navy);
+      margin-bottom: 8px;
+      text-align: center;
+      line-height: 1.25;
+    }
+
+    .testimonials-section .section-lead {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.9rem;
+      color: var(--gray);
+      text-align: center;
+      margin-bottom: 40px;
+      font-style: italic;
+    }
+
+    .testi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .testi-card {
+      background: var(--white);
+      border-radius: 14px;
+      padding: 28px 26px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+      position: relative;
+    }
+
+    .testi-card::before {
+      content: '"';
+      position: absolute;
+      top: 16px;
+      left: 24px;
+      font-size: 4rem;
+      color: var(--gold);
+      opacity: 0.25;
+      line-height: 1;
+      font-family: Georgia, serif;
+    }
+
+    .testi-text {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.95rem;
+      color: var(--text);
+      line-height: 1.6;
+      margin-bottom: 20px;
+      padding-top: 14px;
+    }
+
+    .testi-name {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--navy);
+    }
+
+    .testi-desc {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.78rem;
+      color: var(--gray);
+    }
+
+    .disclaimer-note {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.78rem;
+      color: var(--gray);
+      text-align: center;
+      margin-top: 28px;
+      font-style: italic;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* ── FINAL CTA BAND ── */
+    .final-cta {
+      background: var(--navy-dark);
+      padding: 72px 24px;
+      text-align: center;
+    }
+
+    .final-cta h2 {
+      font-size: clamp(1.55rem, 3.5vw, 2.4rem);
+      color: var(--white);
+      margin-bottom: 14px;
+      line-height: 1.25;
+    }
+
+    .final-cta h2 span { color: var(--gold-light); }
+
+    .final-cta p {
+      font-family: 'Arial', sans-serif;
+      font-size: 1rem;
+      color: rgba(255,255,255,0.65);
+      max-width: 560px;
+      margin: 0 auto 36px;
+      line-height: 1.65;
+    }
+
+    /* ── FOOTER ── */
+    .site-footer {
+      background: #001A2B;
+      color: rgba(255,255,255,0.45);
+      text-align: center;
+      padding: 28px 24px;
+      font-family: 'Arial', sans-serif;
+      font-size: 0.8rem;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      margin-bottom: 10px;
+    }
+
+    .footer-links a {
+      color: rgba(255,255,255,0.45);
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover { color: var(--gold); }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 640px) {
+      .bio-inner {
+        grid-template-columns: 1fr;
+        gap: 36px;
+      }
+
+      .bio-photo {
+        max-width: 220px;
+        margin: 0 auto;
+        aspect-ratio: 1;
+        border-radius: 50%;
+      }
+
+      .hero { padding: 48px 20px 44px; }
+      .pain-section,
+      .learn-section,
+      .root-section,
+      .bio-section,
+      .testimonials-section { padding: 52px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ANNOUNCEMENT BAR -->
+  <div class="announce-bar">
+    Free Video: Discover Your Root-Cause Health Blueprint
+  </div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="logo-wrap">
+      <div class="logo-icon" aria-hidden="true">&#x1F33F;</div>
+      <div class="logo-text">
+        <div class="brand-name">Synergy Wellness</div>
+        <div class="brand-sub">Dr. Tim Harrigan, D.C., B.Sc.</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="hero-eyebrow">Beyond the Streetlight</span>
+      <h1>
+        What If Your Fatigue, Brain Fog, and Hormonal Struggles<br>
+        <span>Aren't a Mystery at All?</span>
+      </h1>
+      <p class="hero-sub">
+        Watch Dr. Tim Harrigan's free video to discover the three root causes
+        conventional medicine consistently misses, and how the Signature Blueprint Protocol
+        has helped thousands of entrepreneurs and busy parents reclaim their energy and clarity.
+      </p>
+      <a href="#watch-now" class="btn-primary">Watch the Free Video</a>
+    </div>
+  </section>
+
+  <!-- VIDEO + OPT-IN -->
+  <section class="video-section" id="watch-now">
+    <div class="video-outer">
+      <div class="video-embed">
+        <!-- Replace src with actual Vimeo embed when available -->
+        <!-- <iframe src="https://player.vimeo.com/video/1078021215" allowfullscreen title="Dr. Tim Harrigan - Signature Blueprint Protocol VSL"></iframe> -->
+        <div class="video-placeholder" aria-label="Signature Blueprint Protocol video by Dr. Tim Harrigan">
+          <div class="play-btn" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </div>
+          <p>Signature Blueprint Protocol - Free Video</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BELOW VIDEO -->
+  <section class="cta-section">
+    <div class="cta-inner">
+      <span class="cta-label">Ready to find your root cause?</span>
+      <h2 class="cta-heading">Book Your Free Blueprint Consultation</h2>
+      <p class="cta-sub">
+        A real 1-on-1 conversation with Dr. Harrigan. No pitch. No pressure.
+        Just a personalized picture of what is happening in your body.
+      </p>
+      <a href="https://l.bttr.to/dSSt6" class="btn-primary" target="_blank" rel="noopener">
+        Schedule My Free Consultation
+      </a>
+      <p class="btn-note">Takes 2 minutes to schedule. Limited availability.</p>
+    </div>
+  </section>
+
+  <!-- PAIN POINTS -->
+  <section class="pain-section">
+    <div class="section-inner">
+      <span class="section-label">You're not imagining it</span>
+      <h2>Sound Familiar?</h2>
+      <p class="lead">
+        If you've checked all the boxes and still don't feel like yourself,
+        the problem isn't your effort. It's where you've been looking.
+      </p>
+      <div class="pain-grid">
+        <div class="pain-card">
+          <p>Your labs come back "normal" but your body feels anything but</p>
+        </div>
+        <div class="pain-card">
+          <p>You wake up exhausted even after eight hours of sleep</p>
+        </div>
+        <div class="pain-card">
+          <p>You hit a wall at 2pm when your brain stops working</p>
+        </div>
+        <div class="pain-card">
+          <p>You've tried every diet, supplement, and specialist with little lasting change</p>
+        </div>
+        <div class="pain-card">
+          <p>A doctor told you "it's just stress" or "it's part of aging"</p>
+        </div>
+        <div class="pain-card">
+          <p>You're performing for everyone else while quietly running on empty</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT YOU'LL LEARN -->
+  <section class="learn-section">
+    <div class="section-inner">
+      <span class="section-label" style="text-align:center;display:block;">In this video</span>
+      <h2>What Dr. Harrigan Covers</h2>
+      <div class="learn-grid">
+        <div class="learn-card">
+          <div class="learn-card-num">Topic 01</div>
+          <h3>Why Conventional Labs Miss the Bigger Picture</h3>
+          <p>
+            Your annual physical checks 20 to 30 markers. There are over 10,000 measurable markers
+            in your body. You are making major health decisions based on less than 1% of the
+            available information.
+          </p>
+        </div>
+        <div class="learn-card">
+          <div class="learn-card-num">Topic 02</div>
+          <h3>Why Symptom-by-Symptom Treatment Keeps You Stuck</h3>
+          <p>
+            Covering the check engine light doesn't fix the engine. Learn why one-at-a-time
+            approaches were never designed to find your specific root cause.
+          </p>
+        </div>
+        <div class="learn-card">
+          <div class="learn-card-num">Topic 03</div>
+          <h3>The Three Root Causes Behind Most Chronic Health Problems</h3>
+          <p>
+            Not twenty. Not a hundred. Three. Deficiency, Toxicity, and Imbalance. And how
+            addressing all three at once changes everything.
+          </p>
+        </div>
+        <div class="learn-card">
+          <div class="learn-card-num">Topic 04</div>
+          <h3>The Signature Blueprint Protocol</h3>
+          <p>
+            A comprehensive, completely natural approach that identifies and addresses all three
+            root causes simultaneously, tailored to your unique physiology.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ROOT CAUSES -->
+  <section class="root-section">
+    <div class="section-inner">
+      <span class="section-label" style="color:var(--gold);">The framework</span>
+      <h2>Three Root Causes. <span>One Clear Path Forward.</span></h2>
+      <p class="lead">
+        After 20 years of research and working with thousands of patients, Dr. Harrigan
+        identified the three causes behind nearly every chronic health struggle.
+      </p>
+      <div class="root-grid">
+        <div class="root-card">
+          <div class="root-card-number">01</div>
+          <h3>Deficiency</h3>
+          <p>
+            Your body is missing something it needs. A specific mineral, enzyme, or protein.
+            Without the right fuel, nothing functions the way it should.
+          </p>
+        </div>
+        <div class="root-card">
+          <div class="root-card-number">02</div>
+          <h3>Toxicity</h3>
+          <p>
+            Something is in your body that shouldn't be. In your air, your water, your food,
+            your products. These toxins silently disrupt your cells for years before symptoms appear.
+          </p>
+        </div>
+        <div class="root-card">
+          <div class="root-card-number">03</div>
+          <h3>Imbalance</h3>
+          <p>
+            Your systems are out of sync. Hormones, neurology, gut microbiome. When these fall
+            out of balance, everything feels off, because everything is.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BIO -->
+  <section class="bio-section">
+    <div class="bio-inner">
+      <div class="bio-photo">
+        <!-- Replace with actual headshot: <img src="..." alt="Dr. Tim Harrigan, D.C., B.Sc., chiropractic physician and functional medicine specialist" /> -->
+        <div class="bio-photo-placeholder">
+          <span class="icon" aria-hidden="true">&#x1F9D1;&#x200D;&#x2695;&#xFE0F;</span>
+          <span>[PLACEHOLDER: Dr. Tim Harrigan headshot]</span>
+        </div>
+      </div>
+      <div class="bio-content">
+        <span class="section-label">Meet your guide</span>
+        <h2>Dr. Tim Harrigan</h2>
+        <p class="bio-title">D.C., B.Sc. | Chiropractic Physician &amp; Functional Medicine Specialist</p>
+        <p>
+          Dr. Harrigan knows what it feels like to search for answers and hit dead ends.
+          After facing chronic health struggles and watching countless others suffer needlessly,
+          he dedicated over two decades to uncovering what conventional medicine consistently misses.
+        </p>
+        <p>
+          Today he has helped thousands of patients reclaim their vitality, including his own wife,
+          who was told by three different specialists she would never conceive naturally. She has
+          four healthy kids today. Not one prescription. Not one over-the-counter medication. Ever.
+        </p>
+        <p>
+          His Signature Blueprint Protocol is not about managing symptoms. It is about healing
+          at the cellular level using precision diagnostics, non-invasive strategies, and
+          regenerative wellness practices.
+        </p>
+        <div class="bio-stat-row">
+          <div class="bio-stat">
+            <strong>20+</strong>
+            <span>Years in practice</span>
+          </div>
+          <div class="bio-stat">
+            <strong>2011</strong>
+            <span>Synergy Wellness founded</span>
+          </div>
+          <div class="bio-stat">
+            <strong>Tucson, AZ</strong>
+            <span>2 locations</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials-section">
+    <div class="section-inner">
+      <span class="section-label" style="text-align:center;display:block;">Patient results</span>
+      <h2>What Patients Are Saying</h2>
+      <p class="section-lead">Results reflect individual experiences. Outcomes vary based on each person's unique blueprint and program compliance.</p>
+      <div class="testi-grid">
+        <div class="testi-card">
+          <p class="testi-text">
+            Keith was an entrepreneur who had seen specialist after specialist. He found Dr. Harrigan
+            at a trade show and asked for help. Ninety days later he had lost nearly 30 pounds
+            and was performing at levels he hadn't reached in years.
+          </p>
+          <div class="testi-name">Keith</div>
+          <div class="testi-desc">Entrepreneur</div>
+        </div>
+        <div class="testi-card">
+          <p class="testi-text">
+            "My body is in better condition at 75 than it was in my 40s." Tish started working
+            with Dr. Harrigan and experienced a transformation she hadn't thought possible at her age.
+          </p>
+          <div class="testi-name">Tish</div>
+          <div class="testi-desc">Patient, age 75</div>
+        </div>
+        <div class="testi-card">
+          <p class="testi-text">
+            Sarah's son was dealing with serious health challenges. Even from across the country,
+            the work they did together made a measurable difference. "What a difference he has made."
+          </p>
+          <div class="testi-name">Sarah</div>
+          <div class="testi-desc">Patient's parent</div>
+        </div>
+      </div>
+      <p class="disclaimer-note">The results achieved are due to a customized plan based on the health of each participant and will depend entirely on program compliance and completion.</p>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="final-cta">
+    <h2>Your Best Days <span>Are Not Behind You.</span></h2>
+    <p>
+      The energy you had at 30. The clarity. The drive. It does not require a prescription
+      or another specialist who runs 20 markers and sends you home. It requires finding
+      your specific blueprint. That is exactly what the free consultation gives you.
+    </p>
+    <a href="https://l.bttr.to/dSSt6" class="btn-primary" target="_blank" rel="noopener">
+      Book My Free Blueprint Consultation
+    </a>
+    <p class="btn-note" style="color:rgba(255,255,255,0.4);margin-top:14px;font-family:'Arial',sans-serif;font-size:0.78rem;">Takes 2 minutes to schedule. No pitch. No pressure.</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="https://www.naturalhealthtucson.com/healthcare-disclaimer" target="_blank" rel="noopener">Healthcare Disclaimer</a>
+      <a href="https://www.naturalhealthtucson.com/" target="_blank" rel="noopener">Synergy Wellness</a>
+    </div>
+    <p>Copyright &copy; 2026 Synergy Wellness. All Rights Reserved.</p>
+    <p style="margin-top:8px;font-size:0.72rem;opacity:0.6;">
+      Dr. Tim Harrigan, D.C., B.Sc. | 6015 E. Grant Rd, Tucson AZ 85712 | (520) 818-8857
+    </p>
+  </footer>
+
+</body>
+</html>
